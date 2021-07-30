@@ -3,7 +3,7 @@ function setup(){
     noLoop();
     background(100, 100, 100);
     ellipseMode(CENTER);
-    //blendMode(DIFFERENCE);
+
     randomSeed(2500);
     noiseSeed(5000);
 }
@@ -17,9 +17,7 @@ function draw(){
     let color1=rgba1;
     let color2=rgba2;
     let color3=rgba3;
-    let lissajousM=2,lissajousN=1;
-    let epA=1.2,epB=1;
-    let hyN=1.6;
+
     let TriW = width/3;
     let iMax = width/TriW;
     let jMax = height/(TriW*sin(PI/3));
